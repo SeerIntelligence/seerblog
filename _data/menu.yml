@@ -1,0 +1,19 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: About the archive
+    entries:
+      - title: This is our no-bs home for blog posts and articles
+      - title: Github repo
+        url: https://github.com/SeerIntelligence/seerblog
+      - title: "Made with Jekyll via the <a href='https://github.com/riggraz/no-style-please'>no-style-please</a> theme"
+  - title: Latest Posts
+    post_list:
+      limit: 10
+      show_more: true
+      show_more_text: See the archive...
+      show_more_url: archive.html
+
+  - title: RSS
+    url: feed.xml
