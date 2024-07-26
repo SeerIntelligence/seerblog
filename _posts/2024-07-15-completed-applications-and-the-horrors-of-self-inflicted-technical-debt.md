@@ -3,6 +3,8 @@ layout: post
 title: "Completed applications & the horrors of self inflicted technical debt"
 category: tech
 ---
+# INCOMPLETE, DON'T READ
+
 
 Lets add AI to everything users will enjoy it they said, its a good idea they said, lets ruin perfectly fine applications they said.
 
@@ -13,9 +15,9 @@ It is ultimately human to crave change in stable systems, people want innovation
 As the pathetic humans that we are, we tend to be annoyed, bored even, by stability and lack of change wherever it may be. Thus a new manmade horror is crafted from the tears of middle management; Self inflicted technical debt.
 
 #### What even is technical debt?
-According to a seminar held in in Dagstuhl:
+According to a seminar held in Dagstuhl:
 
-> In software-intensive systems, technical debt is a collection of design or implementation constructs that are expedient in the short term, but set up a technical context that can make future changes more costly or impossible. Technical debt presents an actual or contingent liability whose impact is limited to internal system qualities, primarily maintainability and evolvability.
+> In software-intensive systems, technical debt is a collection of design or implementation constructs that are expedient in the short term, but set up a technical context that can make future changes more costly or impossible. Technical debt presents an actual or contingent liability whose impact is limited to internal system qualities, primarily maintainability and evolve-ability.
 
 So in short, make shitty choices now and you've got yourself some lovely technical debt.
 
@@ -31,11 +33,17 @@ And when those requirements change due to some hit new feature that middle manag
 How many times have you looked at `ls` and thought maybe this application needs some new features? never? neither did the `coreutils` developers.
 The code base for `ls` is a 6000 line file that hasn't received a major change in 32 years. because it's perfect. it doesn't need styling or a talking idiot that uses the word "delve" too much; It is the combined efforts of some nerds that didn't have a middle management to bother them, no Jira ticket was made and no scrum master was hired. Yet they seem to have produced perfect software, how's that possible?
 
-The answer is very straightforward. `ls` is a simple software with clear outlines in mind. It is made for one goal and one goal only. AS ALL SOFTWARE SHOULD BE.
+The answer is quite straightforward. `ls` is a simple software with clear outlines in mind. It is made for one goal and one goal only. AS ALL SOFTWARE SHOULD BE.
 When software has clear goals and outlines in mind, it is easily "completed", as in "Not in need of new features". The development of this completed software will usually amount to bug fixes and compatibility changes.
 
 #### Why not just create straightforward software then?
 
 Simple! middle management wants to keep their jobs :D
 
-Jokes aside; this investor-oriented 
+Jokes aside; this investor-oriented meta of programming demands work to be done, and corporations are interested in presenting new features and changes in commercial software because it gives them a sense of progress/accomplishment.
+This behavior leads companies and projects to jump on every single hype-train in a looped reaction among corporations; and hyped-up software is almost always self deprecating.
+
+### The magic of self-deprecating software
+
+Young and growing software have a tendency of deprecating themselves rather quickly, take any blockchain for example; aside being an incredibly stupid idea an almost entirely worthless as a technology, we saw blockchains get hyped-up and integrated into a lot of places that they shouldn't have been integrated in, and blockchains deprecated themselves almost instantly after they got implemented.
+The existence of those blockchains in codebases causes them to be technical debt; as they put more of a strain on developers who want to work on the said codebase.
