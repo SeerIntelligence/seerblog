@@ -1,5 +1,5 @@
 ---
-layout: post
+Layout: post
 title: "Completed applications & the horrors of self inflicted technical debt"
 category: tech
 ---
