@@ -4,7 +4,7 @@ title: "Lattices & Post-Quantum Encryption"
 use_math: true
 --- 
 
-### Introduction 
+Say hi to our lord and savior, Lattice-based cryptography, or not.
 
 Quantum computing threatens traditional encryption algorithms via a method called the Shor algorithm. Shor's algorithm uses Quantum Fourier Transform (QFT) to extract the periodicity of a function, leveraging quantum mechanics and thus only being feasible on a quantum computer.
 
