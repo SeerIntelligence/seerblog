@@ -73,6 +73,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  kramdown (~> 2.4)
   kramdown-parser-gfm
   no-style-please!
   webrick (~> 1.8)
